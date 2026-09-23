@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "fasst_eve",
+  "version": "${version}",
+  "name": "FasstEve",
+  "description": "Lokalny podgląd wyglądu przedmiotów (tylko po stronie klienta). Prawy Alt otwiera GUI.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.fasst.eve.FasstEveClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
